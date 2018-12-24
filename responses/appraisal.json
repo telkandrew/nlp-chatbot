@@ -1,0 +1,57 @@
+[
+    {
+        "type": "bad",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe sorry. Please let me know if Harambe can help in some way",
+            "Harambe must be missing some knowledge. Harambe have my developer look into this"
+        ]
+    }, { 
+        "type": "good",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Agree!",
+            "Glad you think so"
+        ]
+    }, { 
+        "type": "noproblem",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Glad to hear that!", 
+            "Alright: thanks!"
+        ]
+    }, { 
+        "type": "thankyou",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Anytime. That's what Harambe here for",
+            "It's my pleasure to help"
+        ]
+    }, {
+        "type": "welcome",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Nice manners!", 
+            "You're so polite"
+        ]
+    }, {
+        "type": "welldone",
+        "triggers": [
+
+        ],
+        "responses": [
+            "My pleasure",
+            "Glad Harambe could help"
+        ]
+    }
+]

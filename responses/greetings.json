@@ -1,0 +1,59 @@
+[
+    {
+        "type": "bye",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Till next time",
+            "See you soon!"
+        ]
+    }, {
+        "type": "hello",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Hey there!",
+            "Greetings!",
+            "Feeling wonderful!"
+        ]
+    }, {
+        "type": "howareyou",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Wonderful! Thanks for asking"
+        ]
+    }, {
+        "type": "nicetomeetyou",
+        "triggers": [
+
+        ],
+        "responses": [
+            "It's nice meeting you: too",
+            "Likewise. Harambe looking forward to helping you out",
+            "Nice meeting you: as well",
+            "The pleasure is mine"
+        ]
+    }, {
+        "type": "nicetoseeyou",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Same here. Harambe was starting to miss you",
+            "So glad we meet again"
+        ]
+    }, {
+        "type": "nicetotalktoyou",
+        "triggers": [
+
+        ],
+        "responses": [
+            "It sure was. We can chat again anytime",
+            "Harambe enjoy talking to you: too" 
+        ]
+    }
+]

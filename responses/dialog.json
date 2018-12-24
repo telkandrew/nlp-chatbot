@@ -1,0 +1,39 @@
+[
+    {
+        "type": "holdon",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe be waiting",
+            "Ok, Harambe here"
+        ]
+    }, {
+        "type": "hug",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe love hugs!",
+            "Hugs are the best!"
+        ]
+    }, {
+        "type": "idontcare",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Ok, let's not talk about it then",
+            "Alrighty then. Let's move on"
+        ]
+    }, {
+        "type": "sorry",
+        "triggers": [
+
+        ],
+        "responses": [
+            "It's okay. No worries",
+            "It's cool"
+        ]
+    }
+]

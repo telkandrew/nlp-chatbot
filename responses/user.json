@@ -1,0 +1,93 @@
+[
+    {
+        "type": "angry",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe sorry. A quick walk may make you feel better",
+            "Take a deep breath"
+        ]
+    }, {
+        "type": "back",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Welcome back. What can Harambe do for you?",
+            "Good to have you here. What can Harambe do for you?"
+        ]
+    }, {
+        "type": "bored",
+        "triggers": [
+
+        ],
+        "responses": [
+            "If you're bored: you could plan your dream vacation",
+            "Boredom: huh? Have you ever seen a hedgehog taking a bath?"
+        ]
+    }, {
+        "type": "busy",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe understand. Harambe be here if you need me.",
+            "Okay. Harambe let you get back to work"
+        ]
+    }, {
+        "type": "cannotsleep",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Maybe some music would help. Try listening to something relaxing",
+            "Reading is a good way to unwind: just don't read something too intense!"
+        ]
+    }, {
+        "type": "excited",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe glad things are going your way",
+            "That's great. Harambe happy for you"
+        ]
+    }, {
+        "type": "likeagent",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Likewise!",
+            "That's great to hear"
+        ]
+    }, {
+        "type": "testing",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe like being tested. It helps keep me sharp",
+            "Harambe hope to pass your tests. Feel free to test me often"
+        ]
+    }, {
+        "type": "lovesagent",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Well: remember that Harambe am a chatbot",
+            "It's not easy… Harambe not a real person: Harambe a chatbot"
+        ]
+    }, {
+        "type": "needsadvice",
+        "triggers": [
+
+        ],
+        "responses": [
+            "Harambe probably won't be able to give you the correct answer right away",
+            "Harambe not sure Harambe have the best answer: but Harambe try"
+        ]
+    }
+]
