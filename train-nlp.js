@@ -2,13 +2,15 @@
 const fs = require('fs');
 const agent = require('./responses/agent.json')
 
-module.exports = async function trainnlp(manager, say) {
+module.exports = trainnlp = async ( manager, say ) => {
 
 
 	/*=======================================================
 	= TODO - throwing "undefined" error while using 
 	= nlp addDocument()
-	*/
+  */
+  
+  //console.log("manager", manager)
 
   // dynamically "addDocument" for response object
   const createAddDocuments = (responseGroup, groupName) => {    
@@ -17,15 +19,17 @@ module.exports = async function trainnlp(manager, say) {
 
       // addDocuments for "triggers"
       group.triggers.forEach(trigger => {
-        let document = `'en', '${trigger}', '${groupName}.${type}'`
-        console.log(document)
-        manager.addDocument(document)
+        const responseObj = `${groupName}.${type}`
+
+        manager.addDocument('en', trigger, responseObj);
       })
 
       // addAnswers for "responses"
-      // group.responses.forEach(response => {
-      //   manager.addAnswer(`'en', '${groupName}.${type}', '${response}'`)
-      // })
+      group.responses.forEach(response => {
+        const responseObj = `${groupName}.${type}`
+        
+        manager.addAnswer('en', responseObj, response)
+      })
     })
   }
   
@@ -39,9 +43,7 @@ module.exports = async function trainnlp(manager, say) {
   //   manager.load('./model.nlp');
   //   return;
   // }
-
-  createAddDocuments(agent, 'agent')
-
+  createAddDocuments(agent, "agent")
 
   say('Training, please wait..');
   const hrstart = process.hrtime();
@@ -49,7 +51,4 @@ module.exports = async function trainnlp(manager, say) {
   const hrend = process.hrtime(hrstart);
   console.info('Trained (hr): %ds %dms', hrend[0], hrend[1] / 1000000);
   say('Trained!');
-
-  await 
-  manager.save('./model.nlp');
 }

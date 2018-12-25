@@ -37,12 +37,12 @@
     {   
         "type": "annoying",
         "triggers": [
-            "you're annoying",
-            "your annoying",
-            "you are annoying",
-            "you're so annoying",
-            "your so annoying",
-            "you are so annoying",
+            "harambe you're annoying",
+            "harambe your annoying",
+            "you are annoying harambe",
+            "you're so annoying harambe",
+            "harambe your so annoying",
+            "you are so annoying harambe",
             "you annoy me",
             "you're irritating",
             "your irritating",
@@ -91,7 +91,7 @@
         "responses": [
             "Sounds like somebody wants to get lazered...",
             "Harambe would have won Winter Skirmish if not for big thumbs and trash WIFI ",
-            "Drop Lucky newb"
+            "Drop Lucky noob..."
         ]
     }, {
         "type": "besmarter",
