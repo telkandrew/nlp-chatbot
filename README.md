@@ -82,13 +82,13 @@ These files are JSON objects, they're the data we're feeding to the Maching Lear
     }
 ```
 
-This is a JSON (Javascript Object Notation) object. It's just a way of structuring data. Each group has a type, an array of triggers, and an array of responses.
+A JSON (Javascript Object Notation) object is just a way of structuring data. Each group has a type, an array of triggers, and an array of responses.
 
-The type is just for our reference, and is what the we'll use to know what grouping the triggers and responses are for, in this case if someone says Harambe sucks at fortnite.
+Type is just for our reference, and is what the we'll use to know what grouping the triggers and responses are for, in this case if someone says Harambe sucks at fortnite.
 
-The triggers are the phrases, "chat messages" which will trigger a response. Thanks to ML the chat message doesn't necessarily have to perfectly match any one of the triggers, they're used to help train the chatbot what it's listening for.
+Triggers are the phrases or "chat messages" which will trigger a response. Thanks to ML the chat message doesn't necessarily have to perfectly match any one of the triggers, they're used to help train the chatbot what it's listening for.
 
-The responses are exactly that, responses. Basically if this group get's triggered, Harambe will respond with one of the responses from that grouping's array.
+Responses are exactly that, responses. Basically if this group gets triggered, Harambe will respond with one of the responses from that grouping's array.
 
 ## Working On The Chatbot
 
