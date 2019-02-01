@@ -1,7 +1,7 @@
 # nlp-chatbot
 Exploratory project with node-nlp
 
-##Setup
+## Setup
 
 NOTE: You don't have to do everything twice, the numbered sections are just there to help explain
 what's going on if you need
@@ -20,7 +20,7 @@ npm install node-nlp
 4) "cd nlp-chatbot" -updates your current working folder to nlp-chatbot
 5) "npm install node-nlp"  -installs npm dependencies (pre-built libraries which power the app)
 
-##Usage (running the chatbot)
+## Usage (running the chatbot)
 
 Open terminal
 
@@ -43,17 +43,17 @@ node .
  4) once training is complete, you can type in terminal and the chatbot will respond.
  
  
-##Files You'll Work In
+## Files You'll Work In
 Within nlp-chatbot you'll find a "responses" folder you'll see two files, "agent.json" and "dialog.json". These are probably the only two I would work on for the moment.
 
-###agent.json
+### agent.json
 This is the training object for chat messages directed specifically at Harambe. If someone asks Harambe a question or mentions his name, this is where his response will be generated from.
 
-###dialog.json
+### dialog.json
 I haven't made much headway on this yet, but this is the training object for Harambe randomly speaking in the chat, without being prompted by a user, or specifically "chatted to". With this object we'll listen for specific "trigger" phrases and respond accordingly. 
 
 
-##How It Works
+## How It Works
 
 These files are JSON objects, they're the data we're feeding to the Maching Learning bot so it can "learn" what phrases to listen for and how to respond. In each file you'll see...
 
@@ -90,6 +90,20 @@ The triggers are the phrases, "chat messages" which will trigger a response. Tha
 
 The responses are exactly that, responses. Basically if this group get's triggered, Harambe will respond with one of the responses from that grouping's array.
 
-##Working On The Chatbot
+## Working On The Chatbot
 
-I don't care what you do, the world's your oyster. You can keep building out some of the groupings I already have, and you can create new ones too. If you have any questions text/call me. Have fun homie
+I don't care what you do, the world's your oyster. You can keep building out some of the groupings I already have, and you can create new ones too. Once you've made and saved changes, you'll have to kill the bot if it's still running. To kill it, while in terminal hold CTRL + C (only two buttons, + isn't included)
+
+```
+ctrl + c
+```
+
+Then to restart the bot, just type...
+
+```
+node .
+```
+
+and it'll start training again. Once it's trained you can talk to it via the terminal.
+
+If you have any questions text/call me. Have fun homie!
