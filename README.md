@@ -30,7 +30,7 @@ cd desktop/nlp-chatbot
 or if already in desktop...
 ```
 cd nlp-chatbot
-``
+```
 
 then type the each line and press enter
 
